@@ -1,0 +1,360 @@
+
+/* ------------------------------------Home------------------------------------- */
+
+*{
+    box-sizing: border-box;
+    
+}
+body{
+    margin: 0;
+}
+
+.home{
+background-image: url(../images/hero\ img.jpg);
+height:100vh;
+}
+
+.container{
+background-color:rgba(0, 0, 0, 0.6);
+position: absolute;
+top: 0;
+left: 0;
+right: 0;
+bottom: 0;
+}
+
+
+.navbar{
+color: antiquewhite;
+background-color:rgba(0, 0, 0, 0.4);
+}
+
+.navbar:hover{
+    background-color: #333;
+}
+
+.nav-logo{
+    
+
+    float: left;
+    font-size: 30px;
+    margin-left: 10%;
+    margin-top: 20px;
+    color: #ff305b;
+  
+}
+
+.nav-list{
+   
+    width:50%;
+    float: right;
+}
+.nav-list ul li{
+    list-style: none;
+    float: left;
+    padding: 10px 20px ;
+}
+.nav-list ul li a{
+    text-decoration: none;
+    color: aliceblue;
+}
+.clr-fix{
+    clear: both;
+}
+
+.nav-list ul li a:hover{
+    color: #ff305b;
+}
+
+
+.home-content{
+    color: white;
+    width: 50%;
+    text-align: center;
+    position: absolute;
+    left: 25%;
+    top: 50%;
+
+}
+.home-content h1{
+    color: #ff305b;
+    font-size: 70px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: 'Source Sans Pro', sans-serif;
+    margin:10px;
+
+}
+
+.home-content h3{
+font-size: 30px;
+font-weight: 600;
+font-family: 'Source Sans Pro', sans-serif;
+margin: 0;
+}
+
+.home-content p{
+    font-size: 30px;
+    margin:10px;
+}
+
+
+/* -----------------------------------</Home>----------------------------------  */
+
+/* ------------------------------------About------------------------------------  */
+
+
+.about{
+
+width: 80%;
+margin: auto;
+margin-top: 10%;
+}
+
+.about-img{
+   
+    width:25%;
+    float: left;
+    position: relative;
+    overflow: hidden;
+}
+
+.about-img img{
+    
+    width:100%;
+    margin-top: 20%;
+    position:relative;
+    z-index: 4;
+    border-radius: 10px;
+    
+}
+
+
+
+
+.img-overly{
+    background-color: rgba(0,0,0,0.6) ;
+    width:300px;
+    height: 370px; 
+    position: absolute;
+    z-index: 5;
+    transition: transform .5s;
+    border-radius: 10px;
+  
+    
+}
+
+.about-img:hover .img-overly{
+    transform: translateY(-370px);
+}
+
+
+.img-overly-icons ul li {
+
+    float: left;
+    list-style: none;
+    padding: 10px;
+    margin-block: 50%;
+    margin-left: 15px;
+    
+
+}
+
+.img-overly-icons ul li a{
+color: aliceblue;
+font-size: 20px;
+
+
+}
+
+.img-cover{
+    border: solid #555555 8px;
+    border-radius: 10px;
+    width:300px;
+    height: 375px;
+    position: absolute;
+
+   top:127%;
+   left: 8%;
+
+    z-index: 2;
+
+}
+
+
+.about-caption{
+   
+    width:60%;
+    float: right;
+  
+}
+
+.about-caption-text{
+  margin-left: 30px;
+  border-bottom: dashed black 1px;
+  position: relative;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400px;
+   
+}
+
+.about-caption-text h2{
+    margin-left: 10px;
+    font-family: "Source Sans 3", sans-serif;
+    font-size: 37px;
+}
+
+.about-caption-text h2::after{
+    content: "";
+    width: 5px;
+    height: 25px;
+    background-color: #ff305b;
+    position: absolute;
+    top: 12px;
+    left: -4px;
+
+}
+
+
+
+
+
+.about-caption-text p{
+    line-height: 30px;
+    font-size: 20px;
+    color: #585656;
+}
+
+
+.about-caption-info{
+  
+    width: 80%;
+    font-size: 20px;
+    
+    
+ 
+}
+.about-caption-info ul li span{
+    color: #000000;
+    font-weight: 500;
+}
+.about-caption-info li{
+color: #585656;
+}
+
+
+.about-caption-info ul .item1 {
+    float: left;
+}
+.about-caption-info ul .item2{
+float: right;
+}
+
+.about-caption-info ul li{
+    list-style-type: none;
+    line-height: 40px;
+}
+
+
+ .about-caption-btn{
+   
+   margin: 0  0 30px 30px ;  
+}
+.btn{
+    padding: 15px 30px;
+    background-color: #ff305b;
+    color: white;
+    border-width: 0;
+    border-radius: 10px;
+    
+}
+.btn1{
+    margin-right: 10px;
+}
+
+.clr-fix{
+    clear:both;
+}
+
+/* ------------------------------------</About>------------------------------------ */
+
+/* ------------------------------------Services------------------------------------ */
+
+
+
+.services{
+margin-top: 12%;
+background-color: #f1f1f1;
+}
+
+.services-container{
+width: 90%;
+margin: auto;
+overflow: auto;
+}
+
+.services-container h2{
+    text-align: center;
+    margin-top: 7%;
+    
+}
+
+
+
+.services-item{
+background-color: tomato;
+width: 24%;
+text-align: center;
+float: left;
+padding-inline: 20px;
+margin-inline: 3px;
+margin-top: 5%;
+}
+
+.services-icon{
+    font-size: 35px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ------------------------------------</Services>------------------------------------ */
+
+
+
+
+
+
+
+
+
+
+
+
